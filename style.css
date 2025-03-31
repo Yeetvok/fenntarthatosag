@@ -8,4 +8,35 @@
     --color2: #9EDF9C;
     --color3: #62825D;
     --color4: #526E48;
+    --creampie: #fffeaa;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  display: block;
+}
+body{
+    height: 200dvh;
+    background-color: var(--creampie);
+}
+header{
+    height: 100dvh;
+    width: 100%;
+    background-image: url(baner2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerbox{
+    font-size: clamp(1rem, calc(10vw+1rem), 3rem);
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
 }
