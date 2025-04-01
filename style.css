@@ -40,3 +40,29 @@ header{
     padding: 1em;
     border-radius: 1em;
 }
+#lenyilal{
+    position: relative;
+    top: 30%;
+    justify-self: flex-start;
+    animation: nyilodavissza 2s infinite;
+    color: var(--creampie);
+    transition: all;
+    transition-duration: 1s;
+}
+@keyframes nyilodavissza{
+    0% {transform: scale(2);}
+    50% {transform: scale(2.5);}
+    100% {transform: scale(2);}
+}
+@keyframes nyildoorstuck{
+    0% {transform: scale(2);}
+    100% {transform: scale(3); background-color: rgba(0, 0, 0, .4); border-radius: 12px;}
+}
+#lenyilal:hover{
+    animation: nyildoorstuck .5s forwards;
+    transform: scale(3);
+}
+a{
+    text-decoration: none;
+    color: var(--creampie);
+}
