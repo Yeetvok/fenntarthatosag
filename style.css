@@ -99,7 +99,7 @@ header{
     animation: nyildoorstuck .5s forwards;
     transform: scale(3);
 }
-a{
+#lenyilal a{
     text-decoration: none;
     color: var(--creampie);
 }
@@ -116,4 +116,14 @@ a{
 }
 .container{
     padding: 2em;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: underline;
+    color: black;
+}
+#datum{
+    font-size: 1.5rem;
 }
