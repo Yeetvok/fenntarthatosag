@@ -18,6 +18,33 @@
   'opsz' 24;
   display: block;
 }
+ul{
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+}
+nav ul{
+    padding: min(1.5rem, 2%);
+    list-style: none;
+    font-size: clamp(1rem, calc(2vw + 1rem), 2rem);
+    display: flex;
+}
+.home-li{
+    margin-right: auto;
+}
+nav ul a{
+    transition: 150ms;
+    padding: .3rem;
+    border-radius: 5px;
+}
 body{
     height: 200dvh;
     background-color: var(--creampie);
