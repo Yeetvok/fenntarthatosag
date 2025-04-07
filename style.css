@@ -40,15 +40,15 @@ nav ul{
 }
 .home-li{
     margin-right: auto;
+    text-decoration: none;
 }
 nav ul a{
     transition: 150ms;
     padding: .3rem;
     border-radius: 5px;
     color: white;
-    text-decoration: underline;
 }
-nav ul a:hover{
+nav ul .forras:hover{
     background-color: var(--hover-btn);
 }
 body{
