@@ -54,6 +54,9 @@ nav ul a:hover{
 body{
     min-height: 100dvh;
     background-color: var(--creampie);
+    background-image: url(hills-2836301_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     height: 100dvh;
