@@ -9,6 +9,7 @@
     --color3: #62825D;
     --color4: #526E48;
     --creampie: #fffeaa;
+    --hover-btn: #5f5f5f;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -44,16 +45,22 @@ nav ul a{
     transition: 150ms;
     padding: .3rem;
     border-radius: 5px;
+    color: white;
+    text-decoration: underline;
+}
+nav ul a:hover{
+    background-color: var(--hover-btn);
 }
 body{
-    height: 200dvh;
+    min-height: 100dvh;
     background-color: var(--creampie);
 }
 header{
     height: 100dvh;
     width: 100%;
-    background-image: url(baner2.jpg);
+    background-image: url(hills-2836301_1280.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,6 +73,7 @@ header{
     color: white;
     padding: 1em;
     border-radius: 1em;
+    border: rgba(131, 131, 131, 0.4) solid .2em;
 }
 #lenyilal{
     position: relative;
@@ -92,4 +100,18 @@ header{
 a{
     text-decoration: none;
     color: var(--creampie);
+}
+.row{
+    border: var(--color3) solid .4em;
+    border-radius: 1em;
+    background-color: white;
+    padding: 1em;
+}
+.colimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    padding: 2em;
 }
